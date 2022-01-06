@@ -10,7 +10,7 @@ Para a instalação é possível usar a ferramenta pip com o seguinte comando:
 
 ## Exemplo de uso
 
-Exemplost de implementações podem ser encontrados na pasta /example, entretanto pode ser visto uma forma de implementação generica abaixo:
+Exemplos de implementações podem ser encontrados na pasta /example, entretanto pode ser visto uma forma de implementação generica abaixo:
 
 ```python
 from pybench import Benchmark
@@ -29,8 +29,5 @@ bench = Benchmark(functions=[f1, f2, ...],
 
 print(bench)
 
-bestFunction = bench.best()[0]
-
-bestFunction(arg1, arg2, ...)
 ```
     
